@@ -1,5 +1,5 @@
+// Write a program to input any alphabet and check whether it is vowel or consonants.
 import java.util.Scanner;
-
 public class chechAlpha {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
