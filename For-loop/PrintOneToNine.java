@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class Print1To9 {
+public class PrintOneToNine {
 public static void main(String[] args) {
     Scanner ram=new Scanner(System.in);
     System.out.println("Enter the number : ");
