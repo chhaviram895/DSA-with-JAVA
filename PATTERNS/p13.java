@@ -15,7 +15,7 @@ public class p13{
         System.out.println("Enter an number..");
         int n = ram.nextInt();
         System.out.println("Result==>");
-        int nst  = n,nsp =0;
+        int nst= n;int nsp =0;
 
         for (int i = 1; i <=2*n-1; i++) {
 
