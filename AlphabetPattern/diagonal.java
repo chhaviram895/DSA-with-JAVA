@@ -1,3 +1,12 @@
+// * * * * * * * * *
+// * *             *
+// *   *           *
+// *     *         *
+// *       *       *
+// *         *     *
+// *           *   *
+// *             * *
+// * * * * * * * * *
 import java.util.Scanner;
 public class diagonal {
     public static void main(String[] args) {
