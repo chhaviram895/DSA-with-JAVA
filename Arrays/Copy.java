@@ -1,3 +1,4 @@
+// How do you copy an array in Java?
 public class Copy {
     public static void main(String[] args) {
         int[] arr = {1, 2, 3, 4, 5};
