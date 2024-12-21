@@ -1,9 +1,9 @@
-// How do you find the column with the Largest sum in a 2D array?
+// How do you find the column with the smallest sum in a 2D array?
 import java.util.Arrays;
-public class LargestColumn {
+public class SmallestColumn {
     public static void main(String[] args) {
         int[][] arr = { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 } };
-        int max = Integer.MIN_VALUE;
+        int min = Integer.MAX_VALUE;
         int col = -1;
 
         for (int c = 0; c < arr[0].length; c++) {
@@ -12,8 +12,8 @@ public class LargestColumn {
                 sum += arr[r][c];
                 arr[c][r] = arr[r][c];
             }
-            if (max < sum) {
-                max = sum;
+            if (min > sum) {
+                min = sum;
                 col = c;
             }
         }
