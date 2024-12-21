@@ -1,5 +1,5 @@
 // Print in Zig - Zag form in columns
-public class ZigZag {
+public class ZigZagCol {
     public static void main(String[] args) {
         int[] arr1 = { 1, 2, 3 };
         int[] arr2 = { 4, 5, 6 };
